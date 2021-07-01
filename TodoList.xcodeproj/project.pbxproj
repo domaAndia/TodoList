@@ -12,6 +12,7 @@
 		5E9AF64C268DE8FD0008BB19 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 5E9AF64B268DE8FD0008BB19 /* Features */; };
 		5E9AF64F268DE93B0008BB19 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9AF64E268DE93B0008BB19 /* CucumberishLoader.m */; };
 		5E9AF651268DEA290008BB19 /* CucumberishInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9AF650268DEA290008BB19 /* CucumberishInitializer.swift */; };
+		5E9AF654268E0F7F0008BB19 /* TodoListHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9AF653268E0F7F0008BB19 /* TodoListHomePage.swift */; };
 		5EA820D2268DE6B0002326F2 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA820D1268DE6B0002326F2 /* TodoListApp.swift */; };
 		5EA820D4268DE6B0002326F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA820D3268DE6B0002326F2 /* ContentView.swift */; };
 		5EA820D6268DE6B2002326F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA820D5268DE6B2002326F2 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		5E9AF64D268DE93B0008BB19 /* TodoListUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TodoListUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E9AF64E268DE93B0008BB19 /* CucumberishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishLoader.m; sourceTree = "<group>"; };
 		5E9AF650268DEA290008BB19 /* CucumberishInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberishInitializer.swift; sourceTree = "<group>"; };
+		5E9AF653268E0F7F0008BB19 /* TodoListHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListHomePage.swift; sourceTree = "<group>"; };
 		5EA820CE268DE6B0002326F2 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA820D1268DE6B0002326F2 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		5EA820D3268DE6B0002326F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5E9AF652268E0F600008BB19 /* Page Objects */ = {
+			isa = PBXGroup;
+			children = (
+				5E9AF653268E0F7F0008BB19 /* TodoListHomePage.swift */,
+			);
+			path = "Page Objects";
+			sourceTree = "<group>";
+		};
 		5EA820C5268DE6B0002326F2 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +168,7 @@
 		5EA820ED268DE6B2002326F2 /* TodoListUITests */ = {
 			isa = PBXGroup;
 			children = (
+				5E9AF652268E0F600008BB19 /* Page Objects */,
 				5E9AF64B268DE8FD0008BB19 /* Features */,
 				5EA820EE268DE6B2002326F2 /* TodoListUITests.swift */,
 				5EA820F0268DE6B3002326F2 /* Info.plist */,
@@ -420,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EA820EF268DE6B2002326F2 /* TodoListUITests.swift in Sources */,
+				5E9AF654268E0F7F0008BB19 /* TodoListHomePage.swift in Sources */,
 				5E9AF651268DEA290008BB19 /* CucumberishInitializer.swift in Sources */,
 				5E9AF64F268DE93B0008BB19 /* CucumberishLoader.m in Sources */,
 			);
